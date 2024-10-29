@@ -116,9 +116,9 @@ if __name__ == "__main__":
     # spec 文件名称
     podspec_file = xcode_execute() if is_called_from_xcode() else target_file_exeute()
     # 上传的分支
-    branch = sys.argv[1] if sys.argv[1] else "feature"
+    branch = 'main'#sys.argv[1] if sys.argv[1] else "main"
     # 库的名称
-    private_repo_name = sys.argv[2] if sys.argv[2] else "AUCSpeces"
+    private_repo_name = 'Specs'#sys.argv[2] if sys.argv[2] else "AUCSpeces"
     # 更新版本号
     new_version = update_podspec_version(podspec_file)
     if new_version:
