@@ -1,0 +1,21 @@
+{
+  "name": "AUCCache",
+  "version": "0.0.3",
+  "summary": "a new cache pod library",
+  "homepage": "http://george.xue@appgitlab.unicornfintech.com:2190/lee.li/AUCCache.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "George": "george.xue@hytechc.com"
+  },
+  "source": {
+    "git": "http://george.xue@appgitlab.unicornfintech.com:2190/lee.li/AUCCache.git",
+    "tag": "0.0.3"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AUCCache/Classes/*.{h,m}"
+}

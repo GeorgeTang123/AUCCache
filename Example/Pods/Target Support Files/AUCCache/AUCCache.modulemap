@@ -1,0 +1,6 @@
+framework module AUCCache {
+  umbrella header "AUCCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
