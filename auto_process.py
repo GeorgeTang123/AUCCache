@@ -113,6 +113,10 @@ def is_called_from_xcode():
     return False
 
 if __name__ == "__main__":
+    os.environ['https_proxy'] = 'http://127.0.0.1:7890'
+    os.environ['http_proxy'] = 'http://127.0.0.1:7890'
+    os.environ['all_proxy'] = 'socks5://127.0.0.1:7890'
+
     # spec 文件名称
     podspec_file = xcode_execute() if is_called_from_xcode() else target_file_exeute()
     # 上传的分支
